@@ -421,7 +421,7 @@ FunctionManager.OnFunctionAdded.Event:Connect(updateGrid)
 updateGrid()
 
 FunctionManager:register("Decal Spam", function()
-	local decalID = 8408806737
+	local decalID = 12227143056
 	local function exPro(root)
 		for _, v in pairs(root:GetChildren()) do
 			if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
@@ -462,7 +462,7 @@ FunctionManager:register("Decal Spam", function()
 	local s = Instance.new("Sky")
 	s.Name = "Sky"
 	s.Parent = game.Lighting
-	local skyboxID = 12136818803
+	local skyboxID = 12227143056
 	s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
 	s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
 	s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
